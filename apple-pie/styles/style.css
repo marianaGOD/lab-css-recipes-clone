@@ -5,11 +5,22 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +29,6 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
-    
 }
 
 /* STYLES */
@@ -26,19 +36,18 @@ body {
 ul {
   list-style-type: none;
 }
-.header{
-  background-image: url('../images/apple-pie.jpg');
+.header {
+  background-image: url("../images/apple-pie.jpg");
   height: 500px;
   color: white;
   font-size: 90px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   padding: 200px;
-  background-size:cover;
+  background-size: cover;
 }
 
 .recipe-info {
-  
   text-align: center;
   font-size: 20px;
   margin-left: 50px;
@@ -62,18 +71,16 @@ ul {
   margin-right: auto;
   width: 40%;
   margin-bottom: 30px;
-  
 }
 hr {
   margin-left: 50px;
   margin-right: 50px;
-  border:1px solid black;
+  border: 1px solid black;
 }
 h2 {
   margin-left: 50px;
   margin-top: 30px;
   margin-bottom: 10px;
-
 }
 
 ol {
